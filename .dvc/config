@@ -1,5 +1,6 @@
 [core]
     remote = storage
+    autostage = true
 ['remote "storage"']
     url = s3://dvc-bucket-mlops/mlops-equipo31
     region = us-east-1
