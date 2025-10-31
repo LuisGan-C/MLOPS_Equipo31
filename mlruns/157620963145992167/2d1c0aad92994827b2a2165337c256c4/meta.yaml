@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/ehl/MLOPS_Equipo31/mlruns/157620963145992167/2d1c0aad92994827b2a2165337c256c4/artifacts
+end_time: 1761881104640
+entry_point_name: ''
+experiment_id: '157620963145992167'
+lifecycle_stage: active
+run_id: 2d1c0aad92994827b2a2165337c256c4
+run_name: crawling-croc-603
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761881034848
+status: 3
+tags: []
+user_id: ehl

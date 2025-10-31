@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/ehl/MLOPS_Equipo31/mlruns/761119497072995811/74c09e5212de4f35bc2157da5392dd2d/artifacts
+end_time: 1761834036571
+entry_point_name: ''
+experiment_id: '761119497072995811'
+lifecycle_stage: active
+run_id: 74c09e5212de4f35bc2157da5392dd2d
+run_name: colorful-crane-198
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761834036559
+status: 4
+tags: []
+user_id: ehl

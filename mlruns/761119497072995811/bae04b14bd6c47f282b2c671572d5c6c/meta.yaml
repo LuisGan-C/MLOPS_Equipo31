@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/ehl/MLOPS_Equipo31/mlruns/761119497072995811/bae04b14bd6c47f282b2c671572d5c6c/artifacts
+end_time: 1761834011586
+entry_point_name: ''
+experiment_id: '761119497072995811'
+lifecycle_stage: active
+run_id: bae04b14bd6c47f282b2c671572d5c6c
+run_name: adorable-crab-974
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761834011574
+status: 4
+tags: []
+user_id: ehl

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/ehl/MLOPS_Equipo31/mlruns/761119497072995811/c08bbc643127478186085268cbf1a269/artifacts
+end_time: 1761880640990
+entry_point_name: ''
+experiment_id: '761119497072995811'
+lifecycle_stage: active
+run_id: c08bbc643127478186085268cbf1a269
+run_name: classy-squid-887
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761880610650
+status: 3
+tags: []
+user_id: ehl

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/ehl/MLOPS_Equipo31/mlruns/761119497072995811/4d22305fce734e34b36e74b3a283eb51/artifacts
+end_time: 1761880316378
+entry_point_name: ''
+experiment_id: '761119497072995811'
+lifecycle_stage: active
+run_id: 4d22305fce734e34b36e74b3a283eb51
+run_name: amusing-flea-15
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761880285652
+status: 3
+tags: []
+user_id: ehl

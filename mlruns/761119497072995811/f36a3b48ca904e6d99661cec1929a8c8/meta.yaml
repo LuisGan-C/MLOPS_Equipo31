@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/ehl/MLOPS_Equipo31/mlruns/761119497072995811/f36a3b48ca904e6d99661cec1929a8c8/artifacts
+end_time: 1761880160741
+entry_point_name: ''
+experiment_id: '761119497072995811'
+lifecycle_stage: active
+run_id: f36a3b48ca904e6d99661cec1929a8c8
+run_name: carefree-panda-150
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761880130584
+status: 3
+tags: []
+user_id: ehl
