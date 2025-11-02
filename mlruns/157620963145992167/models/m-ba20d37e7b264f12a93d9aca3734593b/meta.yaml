@@ -1,0 +1,10 @@
+artifact_location: file:///Users/ehl/MLOPS_Equipo31/mlruns/157620963145992167/models/m-ba20d37e7b264f12a93d9aca3734593b/artifacts
+creation_timestamp: 1762116605778
+experiment_id: '157620963145992167'
+last_updated_timestamp: 1762116611633
+model_id: m-ba20d37e7b264f12a93d9aca3734593b
+model_type: null
+name: model
+source_run_id: 6ae18de3599642df8b48619c820df033
+status: 2
+status_message: null

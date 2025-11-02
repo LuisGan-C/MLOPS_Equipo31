@@ -22,7 +22,7 @@ MODELS = {
 }
 
 
-def load_config(config_path="train.yaml"):
+def load_config(config_path="configs/train.yaml"):
     with open(config_path, "r") as f:
         return yaml.safe_load(f)
 
@@ -72,7 +72,7 @@ def evaluate_model(pipe, X_test, y_test):
 
 
 def main():
-    config = load_config("train.yaml")
+    config = load_config("configs/train.yaml")
 
     data_path = config["dataset_path"]
     target = config["target"]

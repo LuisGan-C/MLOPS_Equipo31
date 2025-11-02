@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/ehl/MLOPS_Equipo31/mlruns/157620963145992167/e2bacd0c907a49579457b9bc48be21f5/artifacts
+end_time: 1762117273163
+entry_point_name: ''
+experiment_id: '157620963145992167'
+lifecycle_stage: active
+run_id: e2bacd0c907a49579457b9bc48be21f5
+run_name: bittersweet-seal-671
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762117259687
+status: 3
+tags: []
+user_id: ehl

@@ -4,8 +4,8 @@ test_size: 0.2
 random_state: 42
 model:
   type: RandomForestRegressor
-  n_estimators: 300
-  max_depth: 18
+  n_estimators: 50
+  max_depth: 20
 mlflow:
   tracking_uri: null
   experiment_name: equipo31-remote

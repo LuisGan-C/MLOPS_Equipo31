@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/ehl/MLOPS_Equipo31/mlruns/157620963145992167/f5c9d30b07b9406c9330145f951f6c3a/artifacts
+end_time: 1762117284753
+entry_point_name: ''
+experiment_id: '157620963145992167'
+lifecycle_stage: active
+run_id: f5c9d30b07b9406c9330145f951f6c3a
+run_name: classy-whale-595
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762117275305
+status: 3
+tags: []
+user_id: ehl
