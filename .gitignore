@@ -29,3 +29,8 @@ Thumbs.db
 *.pkl
 *.h5
 *.joblib
+
+.venv/
+.venv-clean/
+.venv-tools/
+.env

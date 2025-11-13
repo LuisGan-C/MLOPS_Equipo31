@@ -143,3 +143,47 @@ dvc push
 
 ---
 
+
+## 📦 Serving del modelo (FastAPI + MLflow)
+
+## Serving (FastAPI)
+- GET `/health`
+- POST `/predict`
+- Docs: `/docs`
+
+### Variables
+- `MLFLOW_TRACKING_URI=file:$PWD/mlruns`
+- `MODEL_URI=runs:/12e23d1796e74e7184f14277e21ccf64/model`
+
+### Correr (fish)
+```fish
+set -x MLFLOW_TRACKING_URI file:$PWD/mlruns
+set -x MODEL_URI runs:/12e23d1796e74e7184f14277e21ccf64/model
+uvicorn mlops_equipo31.api.main:app --app-dir src --host 0.0.0.0 --port 8000 --reload
+```
+
+
+**Ejemplo de request**
+```bash
+curl -X POST http://localhost:8000/predict \
+  -H "Content-Type: application/json" \
+  -d '{
+    "inputs": [{
+      "temp": 6.414,
+      "hum": 74.5,
+      "wind": 0.083,
+      "gen_diffuse_flows": 0.07,
+      "diffuse_flows": 0.085,
+      "z2_power_cons": 19375.07599,
+      "z3_power_cons": 20131.08434,
+      "hour": 0,
+      "day_of_week": 6,
+      "month": 1,
+      "day": 1
+    }]
+  }'
+
+# fish
+set -x MLFLOW_TRACKING_URI file:$PWD/mlruns
+set -x MODEL_URI runs:/<run_id>/model
+uvicorn mlops_equipo31.api.main:app --app-dir src --host 0.0.0.0 --port 8000 --reload
