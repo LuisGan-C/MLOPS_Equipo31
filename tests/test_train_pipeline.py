@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import Ridge
-from src.mlops_equipo31.train import train_pipeline, preprocess
+from mlops_equipo31.train import train_pipeline, preprocess
 
 def test_train_pipeline_trains_model():
     df = pd.DataFrame({
