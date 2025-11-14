@@ -143,6 +143,35 @@ dvc push
 
 ---
 
+## 🔍 
+
+## ✅ Ejecución de pruebas automatizadas
+
+Este proyecto utiliza pytest para validar los componentes de Machine Learning. Las pruebas están organizadas en la carpeta tests/ e incluyen:
+
+1. Pruebas unitarias: para funciones de limpieza, preprocesamiento, entrenamiento y evaluación.
+
+2. Pruebas de integración: para validar el pipeline de extremo a extremo.
+
+## 🔧 Requisitos previos
+
+Instala pytest si no lo tienes:
+
+```bash
+pip install pytest
+```
+
+## ▶️ Ejecutar todas las pruebas con un solo comando
+
+Desde la raíz del proyecto, simplemente ejecuta:
+
+```bash
+pytest -q tests/
+```
+Esto buscará automáticamente todos los archivos que empiezan con test_ dentro de la carpeta tests/ y ejecutará sus funciones que empiecen con test_.
+
+---
+
 
 ## 📦 Serving del modelo (FastAPI + MLflow)
 
