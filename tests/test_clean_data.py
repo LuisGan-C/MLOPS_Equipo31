@@ -1,5 +1,5 @@
 import pandas as pd
-from src.mlops_equipo31.train import clean_data
+from mlops_equipo31.train import clean_data
 
 def test_clean_data_removes_nulls_and_invalids():
     df = pd.DataFrame({
