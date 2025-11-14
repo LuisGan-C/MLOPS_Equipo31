@@ -1,5 +1,10 @@
 import pandas as pd
-from mlops_equipo31.train import load_data, clean_data, preprocess, train_pipeline, evaluate_model
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
+
+from mlops_equipo31.train import train_pipeline, preprocess
 from sklearn.linear_model import Ridge
 
 def test_end_to_end_pipeline():
