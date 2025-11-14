@@ -1,5 +1,5 @@
 import pandas as pd
-from src.train import preprocess
+from mlops_equipo31.train import preprocess
 
 def test_preprocess_builds_transformer():
     df = pd.DataFrame({
