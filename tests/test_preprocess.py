@@ -1,4 +1,9 @@
 import pandas as pd
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
+
 from mlops_equipo31.train import preprocess
 
 def test_preprocess_builds_transformer():
