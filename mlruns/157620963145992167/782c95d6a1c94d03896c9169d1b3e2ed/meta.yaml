@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/ehl/MLOPS_Equipo31/mlruns/157620963145992167/782c95d6a1c94d03896c9169d1b3e2ed/artifacts
+end_time: 1762117235887
+entry_point_name: ''
+experiment_id: '157620963145992167'
+lifecycle_stage: active
+run_id: 782c95d6a1c94d03896c9169d1b3e2ed
+run_name: thundering-stoat-732
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762117192731
+status: 3
+tags: []
+user_id: ehl

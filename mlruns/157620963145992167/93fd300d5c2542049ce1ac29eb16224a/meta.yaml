@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/ehl/MLOPS_Equipo31/mlruns/157620963145992167/93fd300d5c2542049ce1ac29eb16224a/artifacts
+end_time: 1762118821431
+entry_point_name: ''
+experiment_id: '157620963145992167'
+lifecycle_stage: active
+run_id: 93fd300d5c2542049ce1ac29eb16224a
+run_name: redolent-pug-225
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762118809124
+status: 3
+tags: []
+user_id: ehl

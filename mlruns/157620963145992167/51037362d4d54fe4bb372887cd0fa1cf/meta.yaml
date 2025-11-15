@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/ehl/MLOPS_Equipo31/mlruns/157620963145992167/51037362d4d54fe4bb372887cd0fa1cf/artifacts
+end_time: 1762117257591
+entry_point_name: ''
+experiment_id: '157620963145992167'
+lifecycle_stage: active
+run_id: 51037362d4d54fe4bb372887cd0fa1cf
+run_name: marvelous-carp-586
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762117238039
+status: 3
+tags: []
+user_id: ehl

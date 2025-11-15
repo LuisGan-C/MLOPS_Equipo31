@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/ehl/MLOPS_Equipo31/mlruns/157620963145992167/12e23d1796e74e7184f14277e21ccf64/artifacts
+end_time: 1763044542367
+entry_point_name: ''
+experiment_id: '157620963145992167'
+lifecycle_stage: active
+run_id: 12e23d1796e74e7184f14277e21ccf64
+run_name: capable-auk-759
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763044529657
+status: 3
+tags: []
+user_id: ehl

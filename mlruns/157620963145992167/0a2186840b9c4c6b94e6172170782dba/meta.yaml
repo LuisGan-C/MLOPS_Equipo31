@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/ehl/MLOPS_Equipo31/mlruns/157620963145992167/0a2186840b9c4c6b94e6172170782dba/artifacts
+end_time: 1762117190693
+entry_point_name: ''
+experiment_id: '157620963145992167'
+lifecycle_stage: active
+run_id: 0a2186840b9c4c6b94e6172170782dba
+run_name: whimsical-hound-890
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762117182683
+status: 3
+tags: []
+user_id: ehl

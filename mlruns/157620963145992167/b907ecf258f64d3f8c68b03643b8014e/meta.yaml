@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/ehl/MLOPS_Equipo31/mlruns/157620963145992167/b907ecf258f64d3f8c68b03643b8014e/artifacts
+end_time: 1762118734159
+entry_point_name: ''
+experiment_id: '157620963145992167'
+lifecycle_stage: active
+run_id: b907ecf258f64d3f8c68b03643b8014e
+run_name: mysterious-vole-798
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762118725247
+status: 3
+tags: []
+user_id: ehl

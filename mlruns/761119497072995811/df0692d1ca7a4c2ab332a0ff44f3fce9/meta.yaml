@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/ehl/MLOPS_Equipo31/mlruns/761119497072995811/df0692d1ca7a4c2ab332a0ff44f3fce9/artifacts
+end_time: 1761834684128
+entry_point_name: ''
+experiment_id: '761119497072995811'
+lifecycle_stage: active
+run_id: df0692d1ca7a4c2ab332a0ff44f3fce9
+run_name: hilarious-pig-200
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761834650408
+status: 3
+tags: []
+user_id: ehl

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/ehl/MLOPS_Equipo31/mlruns/157620963145992167/5ddd84b7ceb34146a1a093bc91eb728d/artifacts
+end_time: 1762118807030
+entry_point_name: ''
+experiment_id: '157620963145992167'
+lifecycle_stage: active
+run_id: 5ddd84b7ceb34146a1a093bc91eb728d
+run_name: painted-gull-942
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762118788521
+status: 3
+tags: []
+user_id: ehl

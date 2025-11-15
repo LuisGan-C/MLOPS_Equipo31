@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/ehl/MLOPS_Equipo31/mlruns/761119497072995811/fb41482312214473b15b658f8059f32b/artifacts
+end_time: 1761880654300
+entry_point_name: ''
+experiment_id: '761119497072995811'
+lifecycle_stage: active
+run_id: fb41482312214473b15b658f8059f32b
+run_name: legendary-moose-557
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761880643078
+status: 3
+tags: []
+user_id: ehl

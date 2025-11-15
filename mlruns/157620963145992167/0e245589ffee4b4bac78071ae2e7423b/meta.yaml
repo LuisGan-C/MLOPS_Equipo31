@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/ehl/MLOPS_Equipo31/mlruns/157620963145992167/0e245589ffee4b4bac78071ae2e7423b/artifacts
+end_time: 1762117180271
+entry_point_name: ''
+experiment_id: '157620963145992167'
+lifecycle_stage: active
+run_id: 0e245589ffee4b4bac78071ae2e7423b
+run_name: incongruous-bat-582
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762117134580
+status: 3
+tags: []
+user_id: ehl

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/ehl/MLOPS_Equipo31/mlruns/157620963145992167/1e652b4f0ade486fb108338bab8139ce/artifacts
+end_time: 1762118744873
+entry_point_name: ''
+experiment_id: '157620963145992167'
+lifecycle_stage: active
+run_id: 1e652b4f0ade486fb108338bab8139ce
+run_name: popular-bee-864
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762118736231
+status: 3
+tags: []
+user_id: ehl

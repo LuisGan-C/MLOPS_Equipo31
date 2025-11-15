@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/ehl/MLOPS_Equipo31/mlruns/157620963145992167/7510b3f05f8d41e89d84410e852b3048/artifacts
+end_time: 1763042885837
+entry_point_name: ''
+experiment_id: '157620963145992167'
+lifecycle_stage: active
+run_id: 7510b3f05f8d41e89d84410e852b3048
+run_name: exultant-gnat-722
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763042872989
+status: 3
+tags: []
+user_id: ehl
