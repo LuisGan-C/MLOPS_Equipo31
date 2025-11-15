@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/olivermartinez/Desktop/repofinal/MLOPS_Equipo31/mlruns/278091930796727147/fcf1b61d39334f318a2d753f2a471a42/artifacts
+end_time: 1763242540476
+entry_point_name: ''
+experiment_id: '278091930796727147'
+lifecycle_stage: active
+run_id: fcf1b61d39334f318a2d753f2a471a42
+run_name: capable-auk-759
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763242528571
+status: 4
+tags: []
+user_id: olivermartinez

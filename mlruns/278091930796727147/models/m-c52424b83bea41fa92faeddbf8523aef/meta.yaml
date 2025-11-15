@@ -1,0 +1,10 @@
+artifact_location: file:///Users/olivermartinez/Desktop/repofinal/MLOPS_Equipo31/mlruns/278091930796727147/models/m-c52424b83bea41fa92faeddbf8523aef/artifacts
+creation_timestamp: 1763242536676
+experiment_id: '278091930796727147'
+last_updated_timestamp: 1763242540304
+model_id: m-c52424b83bea41fa92faeddbf8523aef
+model_type: null
+name: RandomForestRegressor
+source_run_id: fcf1b61d39334f318a2d753f2a471a42
+status: 2
+status_message: null

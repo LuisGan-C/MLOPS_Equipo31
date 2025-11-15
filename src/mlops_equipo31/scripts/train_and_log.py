@@ -49,6 +49,7 @@ def main(csv_path: str, experiment_name: str):
 
         mlflow.log_params({
             "model_type": "RandomForestRegressor",
+            "model_name": "RandomForestRegressor",
             "n_estimators": 300,
             "max_depth": None,
             "random_state": 42
@@ -59,6 +60,7 @@ def main(csv_path: str, experiment_name: str):
         signature = infer_signature(X_train, model.predict(X_train[:5]))
         mlflow.sklearn.log_model(
             sk_model=model,
+            #name="RandomForestRegressor",
             artifact_path="model",
             signature=signature,
             input_example=X_train.head(2)
@@ -69,6 +71,20 @@ def main(csv_path: str, experiment_name: str):
         print(f"Run ID    : {run.info.run_id}")
         print("Artifact  : model/")
         print("==============================\n")
+
+        model_uri = f"runs:/{run.info.run_id}/model"
+
+        modelo_registrado = mlflow.register_model(
+            model_uri=model_uri,
+            name="RandomForestRegressor"
+        )
+
+        print("\n==============================")
+        print(f" ------MODELO REGISTRADO ------")
+        print(f"Nombre modelo  : RandomForestRegressor")
+        print(f"Versión        : {modelo_registrado.version}")
+        print("==============================\n")
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

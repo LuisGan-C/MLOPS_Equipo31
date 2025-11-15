@@ -1,0 +1,10 @@
+artifact_location: file:///Users/olivermartinez/Desktop/repofinal/MLOPS_Equipo31/mlruns/278091930796727147/models/m-50fc506c707b4caf916c8c6cc0fb318b/artifacts
+creation_timestamp: 1763242946997
+experiment_id: '278091930796727147'
+last_updated_timestamp: 1763242951049
+model_id: m-50fc506c707b4caf916c8c6cc0fb318b
+model_type: null
+name: model
+source_run_id: 4ef39b2270df4a999aa9a0773b8b6b80
+status: 2
+status_message: null

@@ -1,0 +1,15 @@
+creation_timestamp: 1763242951132
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1763242951132
+model_id: m-50fc506c707b4caf916c8c6cc0fb318b
+name: RandomForestRegressor
+run_id: 4ef39b2270df4a999aa9a0773b8b6b80
+run_link: null
+source: models:/m-50fc506c707b4caf916c8c6cc0fb318b
+status: READY
+status_message: null
+storage_location: file:///Users/olivermartinez/Desktop/repofinal/MLOPS_Equipo31/mlruns/278091930796727147/models/m-50fc506c707b4caf916c8c6cc0fb318b/artifacts
+user_id: null
+version: 1
