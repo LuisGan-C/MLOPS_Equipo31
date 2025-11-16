@@ -1,0 +1,75 @@
+services:
+  # Model training pipeline
+  model-training:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mlops-training31
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./mlruns:/app/mlruns
+      - ./reports:/app/reports
+    environment:
+      - AWS_PROFILE=${AWS_PROFILE}
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+      - MLFLOW_TRACKING_URI=http://mlflow-server:5000
+    env_file:
+      - .env
+    depends_on:
+      - mlflow-server
+    networks:
+      - mlops31-network
+    command: >
+      sh -c "python src/mlops_equipo31/scripts/train_and_log.py --csv data/final/power_tetouan_city_after_EDA.csv --experiment equipo31-remote"
+  
+  
+  # MLflow tracking server
+  mlflow-server:
+    #image: python:3.10-slim
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mlops-mlflow31
+    volumes:
+      - ./mlruns:/mlflow/mlruns
+    ports:
+      - "5001:5000"
+    command: >
+      sh -c "pip install mlflow boto3 &&
+             mlflow server --host 0.0.0.0 --port 5000 --backend-store-uri /mlflow/mlruns"
+    networks:
+      - mlops31-network
+    environment:
+      - MLFLOW_SERVER_ALLOWED_HOSTS=*
+      - MLFLOW_TRACKING_URI=http://mlflow-server:5000
+      - MODEL_URI=models:/RandomForestRegressor/1
+
+
+  # FastAPI prediction service
+  prediction-api:
+    build:
+      context: ./src
+      dockerfile: mlops_equipo31/api/Dockerfile
+    container_name: mlops-api31
+    ports:
+      - "8000:8000"
+    environment:
+      - MLFLOW_TRACKING_URI=http://mlflow-server:5000
+      - MODEL_URI=models:/RandomForestRegressor/1
+    volumes:
+      - ./models:/app/models
+      - ./mlruns:/app/mlruns
+    depends_on:
+      - mlflow-server
+    networks:
+      - mlops31-network
+
+networks:
+  mlops31-network:
+    driver: bridge
+
+volumes:
+  mlflow-data:
+  model-data:

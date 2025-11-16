@@ -2,17 +2,17 @@ from typing import List, Optional, Any
 from pydantic import BaseModel, Field
 
 class PredictItem(BaseModel):
-    temp: float = Field(..., description="Temperatura (°C)")
-    hum: float = Field(..., ge=0, le=100, description="Humedad relativa (%)")
-    wind: float = Field(..., ge=0, description="Velocidad del viento (m/s)")
-    gen_diffuse_flows: float = Field(..., ge=0, description="Radiación difusa generada")
-    diffuse_flows: float = Field(..., ge=0, description="Radiación difusa")
-    z2_power_cons: float = Field(..., ge=0, description="Consumo zona 2")
-    z3_power_cons: float = Field(..., ge=0, description="Consumo zona 3")
-    hour: int = Field(..., ge=0, le=23)
-    day_of_week: int = Field(..., ge=0, le=6, description="0=Lunes ... 6=Domingo")
-    month: int = Field(..., ge=1, le=12)
-    day: int = Field(..., ge=1, le=31)
+    temp: float = Field(6.414, description="Temperatura (°C)")
+    hum: float = Field(74.5, ge=0, le=100, description="Humedad relativa (%)")
+    wind: float = Field(0.083, ge=0, description="Velocidad del viento (m/s)")
+    gen_diffuse_flows: float = Field(0.07, ge=0, description="Radiación difusa generada")
+    diffuse_flows: float = Field(0.085, ge=0, description="Radiación difusa")
+    z2_power_cons: float = Field(19375.07599, ge=0, description="Consumo zona 2")
+    z3_power_cons: float = Field(20131.08434, ge=0, description="Consumo zona 3")
+    hour: int = Field(0, ge=0, le=23)
+    day_of_week: int = Field(6, ge=0, le=6, description="0=Lunes ... 6=Domingo")
+    month: int = Field(1, ge=1, le=12)
+    day: int = Field(1, ge=1, le=31)
 
 class PredictRequest(BaseModel):
     # v2: usa min_length para listas
