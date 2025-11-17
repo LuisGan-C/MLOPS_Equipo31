@@ -1,6 +1,42 @@
 # 🧠 MLOPS_Equipo31
 
 ---
+## 🐳 Docker
+
+### Generación de contenedores
+Genera los contenedores a partir del docker-compose.yml en nuestro proyecto, y esperar a que termine la ejecución del entrenamiento y registro del modelo
+
+```bash
+docker compose up --build
+```
+
+Se debe ver algo asi:
+mlops-training31  | Created version '5' of model 'RandomForestRegressor'.
+mlops-training31  | 
+mlops-training31  | ==============================
+mlops-training31  | Experiment: equipo31-remote
+mlops-training31  | Run ID    : 4399f9db34dd4a1ea3f9173410249e27
+mlops-training31  | Artifact  : model/
+mlops-training31  | ==============================
+mlops-training31  | 
+mlops-training31  | 
+mlops-training31  | ==============================
+mlops-training31  |  ------MODELO REGISTRADO ------
+mlops-training31  | Nombre modelo  : RandomForestRegressor
+mlops-training31  | Versión        : 5
+mlops-training31  | ==============================
+
+### Abrir sevidores
+Abrir servidor de MLFlow
+```bash
+open http://localhost:5001
+```
+
+Abrir FastAPI
+```bash
+open http://localhost:8000/docs
+```
+
 
 ## ⚙️ Requerimientos
 
