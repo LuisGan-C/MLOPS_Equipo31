@@ -2,6 +2,9 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
+# Actualizamos pip para evitar timeouts
+RUN pip install --upgrade pip setuptools wheel
+
 COPY mlops_equipo31/api/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
