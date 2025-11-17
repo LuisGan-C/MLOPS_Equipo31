@@ -11,6 +11,7 @@ docker compose up --build
 ```
 
 Se debe ver algo asi:
+```bash
 mlops-training31  | Created version '5' of model 'RandomForestRegressor'.
 mlops-training31  | 
 mlops-training31  | ==============================
@@ -25,6 +26,7 @@ mlops-training31  |  ------MODELO REGISTRADO ------
 mlops-training31  | Nombre modelo  : RandomForestRegressor
 mlops-training31  | Versión        : 5
 mlops-training31  | ==============================
+```
 
 ### Abrir sevidores
 Abrir servidor de MLFlow
